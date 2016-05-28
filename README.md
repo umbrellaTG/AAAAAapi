@@ -1,4 +1,4 @@
-# [TeleMoon](https://telegram.me/TeleMoon)
+# [MegaMoon](https://telegram.me/Mega_Moon)
 
 **An advanced and powerful administration bot based on [SEEDTEAM/TeleSeed](https://github.com/seedteam/teleseed) licensed under the [GNU General Public License](https://github.com/SEEDTEAM/TeleSeed/blob/master/LICENSE)**.
 # Features
@@ -29,7 +29,7 @@
 sudo apt-get update; sudo apt-get upgrade -y --force-yes; sudo apt-get dist-upgrade -y --force-yes; sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev libjansson* libpython-dev make unzip git redis-server g++ -y --force-yes
 
 cd $HOME
-git clone https://github.com/MoonTeamBot/TeleMoon.git -b supergroups
+git clone https://github.com/allwenwaker/MegaMoon.git -b supergroups
 cd TeleMoon
 chmod +x launch.sh
 ./launch.sh install
@@ -37,7 +37,7 @@ chmod +x launch.sh
 
 if bot is not run
 
-cd TeleMoon
+cd MegaMoon
 ./launch.sh install
 cd .luarocks
 cd bin 
@@ -54,12 +54,10 @@ cd ..
 
 ###Our team telegram account!
 
-[MAKAN](https://telegram.me/makan)
+[Allwen](https://telegram.me/allwen)
 
-[Dilan](https://telegram.me/dilan)
-
-[Parham](https://telegram.me/UnFriendlly)
+[Alforoshtak](https://telegram.me/alforoshtak)
 
 ###Our Telegram channels:
 
-[@MoonTeam](https://telegram.me/MoonTeam)
+[@MegaMoonTeam](https://telegram.me/MegaMoonTeam)
