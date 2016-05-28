@@ -108,7 +108,7 @@ local function telegram_help()
     text = text..i..'> '..name..'\n'
     end
   end
-  text = text..'\n'..'__________________________________\n#MoonTeam'
+  text = text..'\n'..'__________________________________\n#Mega_Moon'
   return text
 end
  
