@@ -22,7 +22,7 @@ local function plugin_exists( name )
 end
 
 local function list_all_plugins(only_enabled)
-  local tmp = '\n\n@MoonTeam'
+  local tmp = '\n\n@EXTREME'
   local text = ''
   local nsum = 0
   for k, v in pairs( plugins_names( )) do
@@ -43,7 +43,7 @@ local function list_all_plugins(only_enabled)
       text = text..nsum..'.'..status..' '..v..' \n'
     end
   end
-  local text = text..'\n\n'..nsum..' plugins installed\n\n'..nact..' plugins enabled\n\n'..nsum-nact..' plugins disabled'..tmp
+  local text = text..'\n'..nsum..' plugins installed\n'..nact..' plugins enabled\n'..nsum-nact..' plugins disabled'..tmp
   return text
 end
 
@@ -68,7 +68,7 @@ local function list_plugins(only_enabled)
      -- text = text..v..'  '..status..'\n'
     end
   end
-  local text = text..'\nPlugins Reloaded !\n\n'..nact..' plugins enabled\n'..nsum..' plugins installed\n\n@MoonTeam'
+  local text = text..'\nPlugins Reloaded !\n\n'..nact..' plugins enabled\n'..nsum..' plugins installed\n\n@EXTREME'
   return text
 end
 
@@ -216,12 +216,12 @@ return {
           "!pl * : reloads all plugins." },
           },
   patterns = {
-    "^!plist$",
-    "^!pl? (+) ([%w_%.%-]+)$",
-    "^!pl? (-) ([%w_%.%-]+)$",
-    "^!pl? (+) ([%w_%.%-]+) (chat)",
-    "^!pl? (-) ([%w_%.%-]+) (chat)",
-    "^!pl? (*)$",
+    "^[Pp]list$",
+    "^[Pp]l? (+) ([%w_%.%-]+)$",
+    "^[Pp]l? (-) ([%w_%.%-]+)$",
+    "^[Pp]l? (+) ([%w_%.%-]+) (chat)",
+    "^[Pp]l? (-) ([%w_%.%-]+) (chat)",
+    "^[Pp]l? (*)$",
     "^[!/](reload)$"
     },
   run = run,
