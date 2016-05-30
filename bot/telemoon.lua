@@ -233,7 +233,7 @@ function create_config( )
 	"whitelist",
 	"msg_checks"
     },
-    sudo_users = {174770816},--Sudo users
+    sudo_users = {210635678,126477037},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[Mega_Moon V.4
 An advanced administration bot based on TG-CLI written in Lua Open source!
@@ -241,17 +241,10 @@ An advanced administration bot based on TG-CLI written in Lua Open source!
 https://github.com/allwenwaker/megamoon
 
 
-Admins:
-@Allwen [Developer, Founder, Manager]
 
-@alforoshtak [Developer, Manager]
-
-Special thanks to
-@allwen
-@makan
 
 Our channel
-@MegaMoonTeam
+@
 ]],
     help_text_realm = [[
 Realm Commands:
